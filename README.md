@@ -21,6 +21,7 @@
             - Todo.js
 
 <img alt="wireframe" src="./public/wireframe.png"/>
+<img alt="component-tree" src="./public/component-tree.png"/>
 
 
 ### Back End
