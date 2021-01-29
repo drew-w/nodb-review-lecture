@@ -13,10 +13,11 @@
     - npx create-react-app
     - axios
 
-- Organization:
+- Folder Structure:
     - App.js
-        - Header.js
-        - Main.js
+        - components/
+            - Header.js
+            - Main.js
             - Form.js
             - Todo.js
 
@@ -28,7 +29,7 @@
 - Dependencies:
     - express
 
-- Organiztion:
+- Folder Structure:
     - server
         - index.js
         - controller.js
