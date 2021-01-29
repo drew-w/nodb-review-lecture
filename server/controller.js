@@ -1,5 +1,6 @@
-const todos = [];
-let id = 0;
+const todos = [{id: 0, task: "Go to toshi station", complete: false },
+{id: 1, task: "Pick up some power converters", complete: false }];
+let id = 2;
 
 module.exports = {
     getTodos: (req, res) => {
