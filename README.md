@@ -44,5 +44,5 @@
 - Endpoints:
     - `app.get('api/todos', ctrl.getTodos)`
     - `app.post('api/todos', ctrl.addTodo)`
-    - `app.update('api/todos', ctrl.completeTodo)`
-    - `app.delete('api/todos', ctrl.deleteTodo)`
+    - `app.update('api/todos:/id', ctrl.completeTodo)`
+    - `app.delete('api/todos/:id', ctrl.deleteTodo)`
